@@ -1,7 +1,7 @@
 ```mermaid
 flowchart TD
     A[Key Source: Basic Ability\nCost: 100 Azur\nno ability] --> B[Ability Level 1\nCost: 200 Azur\nno ability]
-    B --> C[Fireball\nCost: 600 Azur\A bright beam flies from your index finger to a point you choose within range, where it bursts into flames with a resounding roar. All creatures within a 20-foot radius sphere centered on that point must make a Dexterity saving throw. The target takes 8k6 fire damage on a failure or half that damage on a success. This fire rounds corners. It ignites combustible items that no one is carrying or carrying.]
+    B --> C[Fireball\nCost: 600 Azur\A bright beam flies from your index finger to a point you choose within range, where it bursts into flames with a resounding roar.]
     C --> D[Ability Level 3\nCost: 1200 Azur\nno ability]
     D --> E[Ability Level 4\nCost: 2500 Azur\nno ability]
     E --> F[Ability Level 5\nCost: 7000 Azur\nno ability]
