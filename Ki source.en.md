@@ -6,39 +6,39 @@ classDiagram
         +cost: Integer (amount)
     }
     class AbilityLevel1 {
-        +cost: 200 Azur
-        +description: no ability
+        +cost: 200 Azur (amount)
+        +description: no ability 
     }
     class AbilityLevel2 {
-        +cost: 600 Azur
+        +cost: 600 Azur (amount)
         +description: no ability
     }
     class AbilityLevel3 {
-        +cost: 1200 Azur
+        +cost: 1200 Azur (amount)
         +description: no ability
     }
     class AbilityLevel4 {
-        +cost: 2500 Azur
+        +cost: 2500 Azur (amount)
         +description: no ability
     }
     class AbilityLevel5 {
-        +cost: 7000 Azur
+        +cost: 7000 Azur (amount)
         +description: no ability
     }
     class AbilityLevel6 {
-        +cost: 10000 Azur
+        +cost: 10000 Azur (amount)
         +description: no ability
     }
     class AbilityLevel7 {
-        +cost: 14000 Azur
+        +cost: 14000 Azur (amount)
         +description: no ability
     }
     class AbilityLevel8 {
-        +cost: 20000 Azur
+        +cost: 20000 Azur (amount)
         +description: no ability
     }
     class AbilityLevel9 {
-        +cost: 50000 Azur
+        +cost: 50000 Azur (amount)
         +description: no ability
     }
 
