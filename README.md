@@ -1,5 +1,5 @@
 # Project-Stellar-ability-trees
-``mermaid
+```mermaid
 graph TD;
     classDef default fill:#ffffff,stroke:#000000,stroke-width:1px;
     classDef abilityLevel fill:#f9f9f9,stroke:#333333,stroke-width:1px;
