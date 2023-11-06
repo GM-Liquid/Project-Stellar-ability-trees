@@ -1,12 +1,63 @@
-```mermaid
-flowchart TD
-    A[Key Source: Basic Ability\nCost: 100 Azur\nno ability] --> B[Ability Level 1\nCost: 200 Azur\nno ability]
-    B --> C[Fireball\nCost: 600 Azur\nA bright beam flies from your index finger to a point you choose within range, where it bursts into flames with a resounding roar.]
-    C --> D[Ability Level 3\nCost: 1200 Azur\nno ability]
-    D --> E[Ability Level 4\nCost: 2500 Azur\nno ability]
-    E --> F[Ability Level 5\nCost: 7000 Azur\nno ability]
-    F --> G[Ability Level 6\nCost: 10000 Azur\nno ability]
-    G --> H[Ability Level 7\nCost: 14000 Azur\nno ability]
-    H --> I[Ability Level 8\nCost: 20000 Azur\nno ability]
-    I --> J[Ability Level 9\nCost: 50000 Azur\nno ability]
 
+```mermaid
+classDiagram
+    class BasicAbility {
+        +name: String
+        +description: String
+        +cost: Integer
+    }
+    class AbilityLevel1 {
+        +inherit: BasicAbility
+        +cost: 200 Azur
+        +description: no ability
+    }
+    class AbilityLevel2 {
+        +inherit: BasicAbility
+        +cost: 600 Azur
+        +description: no ability
+    }
+    class AbilityLevel3 {
+        +inherit: BasicAbility
+        +cost: 1200 Azur
+        +description: no ability
+    }
+    class AbilityLevel4 {
+        +inherit: BasicAbility
+        +cost: 2500 Azur
+        +description: no ability
+    }
+    class AbilityLevel5 {
+        +inherit: BasicAbility
+        +cost: 7000 Azur
+        +description: no ability
+    }
+    class AbilityLevel6 {
+        +inherit: BasicAbility
+        +cost: 10000 Azur
+        +description: no ability
+    }
+    class AbilityLevel7 {
+        +inherit: BasicAbility
+        +cost: 14000 Azur
+        +description: no ability
+    }
+    class AbilityLevel8 {
+        +inherit: BasicAbility
+        +cost: 20000 Azur
+        +description: no ability
+    }
+    class AbilityLevel9 {
+        +inherit: BasicAbility
+        +cost: 50000 Azur
+        +description: no ability
+    }
+
+    BasicAbility <|-- AbilityLevel1
+    BasicAbility <|-- AbilityLevel2
+    BasicAbility <|-- AbilityLevel3
+    BasicAbility <|-- AbilityLevel4
+    BasicAbility <|-- AbilityLevel5
+    BasicAbility <|-- AbilityLevel6
+    BasicAbility <|-- AbilityLevel7
+    BasicAbility <|-- AbilityLevel8
+    BasicAbility <|-- AbilityLevel9
