@@ -1,6 +1,6 @@
 ```mermaid
 flowchart TD
-    A[Key Source: Basic Ability\nCost: 100 Azur\nno ability] --> B[Ability Level 1\nCost: 200 Azur\nno ability]
+    A[Key Source: Basic Ability\nCost: 100 Azur\nno ability] --> B[Fireball\nCost: 200 Azur\nno ability]
     B --> C[Ability Level 2\nCost: 600 Azur\nno ability]
     C --> D[Ability Level 3\nCost: 1200 Azur\nno ability]
     D --> E[Ability Level 4\nCost: 2500 Azur\nno ability]
