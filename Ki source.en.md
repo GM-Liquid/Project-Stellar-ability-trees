@@ -1,9 +1,7 @@
 ```mermaid
 flowchart TD
     A[Key Source: Basic Ability\nCost: 100 Azur\nno ability] --> B[Ability Level 1\nCost: 200 Azur\nno ability]
-    B --> C[Fireball\nCost: 600 Azur\Яркий луч вылетает из вашего указательного пальца в точку, выбранную вами в пределах дистанции, где и происходит взрыв пламени с гулким ревом. Все существа в пределах сферы с радиусом 20 футов с центром в этой точке должны совершить спасбросок Ловкости. Цель получает 8к6 урона огнём при провале или половину этого урона при успехе. Этот огонь огибает углы. Он воспламеняет горючие предметы, которые никто не несет и не носит.
-
-На больших уровнях. Если вы накладываете это заклинание, используя ячейку 4-го уровня или выше, урон увеличивается на 1к6 за каждый уровень ячейки выше третьего.]
+    B --> C[Fireball\nCost: 600 Azur\A bright beam flies from your index finger to a point you choose within range, where it bursts into flames with a resounding roar. All creatures within a 20-foot radius sphere centered on that point must make a Dexterity saving throw. The target takes 8k6 fire damage on a failure or half that damage on a success. This fire rounds corners. It ignites combustible items that no one is carrying or carrying.]
     C --> D[Ability Level 3\nCost: 1200 Azur\nno ability]
     D --> E[Ability Level 4\nCost: 2500 Azur\nno ability]
     E --> F[Ability Level 5\nCost: 7000 Azur\nno ability]
