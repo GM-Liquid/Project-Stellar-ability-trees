@@ -25,25 +25,4 @@ graph TD;
 
 
 
-    basic --| "Ability Level 1" | L1A1
-    basic -- L1A2
-    basic -- L1A3
-    basic -- L1A4
-    basic -- L1A5
-    basic -- L1A6
-
-    L1A1 --| "Ability Level 2" | L2A1
-    L1A2 -- L2A2
-
-
-    L2A1 --| "Ability Level 3" | L3A1
-
-
-    L3A1 --| "Ability Level 4" | L4A1
-
-
-
-
-    class basic,default;
-    class L1A1,L1A2,L1A3,L1A4,L1A5,L1A6,L2A1,L2A2,L3A1,L4A1 abilityLevel;
 ```
