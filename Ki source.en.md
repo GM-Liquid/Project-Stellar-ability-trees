@@ -3,7 +3,7 @@
 classDiagram
     class BasicAbility {
         +description: String
-        +cost: Integer (amount)
+        +cost: String (amount)
     }
     class AbilityLevel1 {
         +cost: cost (200)
