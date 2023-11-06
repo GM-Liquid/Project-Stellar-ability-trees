@@ -1,10 +1,12 @@
 
 ```mermaid
 classDiagram
-    class BasicAbility {
-        +description: String
-        +cost: String (amount)
+    class Ability {
+        +String name
+        +String description
+        +int cost
     }
+
     class AbilityLevel1 {
         Cost - 2 y.e ()
         description: no ability 
