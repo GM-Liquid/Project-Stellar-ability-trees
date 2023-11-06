@@ -6,7 +6,7 @@ classDiagram
         +cost: Integer (amount)
     }
     class AbilityLevel1 {
-        +cost: 200 Azur (amount)
+        +cost: cost (200)
         +description: no ability 
     }
     class AbilityLevel2 {
