@@ -45,4 +45,3 @@ graph TD;
 
     class basic,default;
     class L1A1,L1A2,L1A3,L1A4,L1A5,L1A6,L2A1,L2A2,L3A1,L4A1 abilityLevel;
-```
