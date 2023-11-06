@@ -10,11 +10,11 @@ classDiagram
         +description: no ability 
     }
     class AbilityLevel2 {
-        +cost: 600 Azur (amount)
+        +cost: cost (200)
         +description: no ability
     }
     class AbilityLevel3 {
-        +cost: 1200 Azur (amount)
+        +cost: cost (200)
         +description: no ability
     }
     class AbilityLevel4 {
