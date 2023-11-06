@@ -1,28 +1,40 @@
 # Project-Stellar-ability-trees
 
 ```mermaid
-graph TD;
-    classDef default fill:#ffffff,stroke:#000000,stroke-width:1px;
-    classDef abilityLevel fill:#f9f9f9,stroke:#333333,stroke-width:1px;
+flowchart TD
+    A[Key Source: Basic Ability] -->|Cost: 100 Azur| B[no ability]
+    A -->|Cost: 200 Azur| C[no ability]
+    A -->|Cost: 200 Azur| D[no ability]
 
-    basic(("Ki Source: Basic Ability\nCost: 100 Azur"))
-    L1A1(("Ability 1 Level 1\nCost: 200 Azur"))
-    L1A2(("Ability 2 Level 1\nCost: 200 Azur"))
-    L1A3(("Ability 3 Level 1\nCost: 200 Azur"))
-    L1A4(("Ability 4 Level 1\nCost: 200 Azur"))
-    L1A5(("Ability 5 Level 1\nCost: 200 Azur"))
-    L1A6(("Ability 6 Level 1\nCost: 200 Azur"))
+    B -->|Cost: 600 Azur| E[no ability]
+    C -->|Cost: 600 Azur| F[no ability]
+    D -->|Cost: 600 Azur| G[no ability]
 
-    L2A1(("Ability 1 Level 2\nCost: 600 Azur"))
-    L2A2(("Ability 2 Level 2\nCost: 600 Azur"))
+    E -->|Cost: 1200 Azur| H[no ability]
+    F -->|Cost: 1200 Azur| I[no ability]
+    G -->|Cost: 1200 Azur| J[no ability]
 
-    
-    L3A1(("Ability 1 Level 3\nCost: 1200 Azur"))
+    H -->|Cost: 2500 Azur| K[no ability]
+    I -->|Cost: 2500 Azur| L[no ability]
+    J -->|Cost: 2500 Azur| M[no ability]
 
+    K -->|Cost: 7000 Azur| N[no ability]
+    L -->|Cost: 7000 Azur| O[no ability]
+    M -->|Cost: 7000 Azur| P[no ability]
 
-    L4A1(("Ability 1 Level 4\nCost: 2500 Azur"))
+    N -->|Cost: 10000 Azur| Q[no ability]
+    O -->|Cost: 10000 Azur| R[no ability]
+    P -->|Cost: 10000 Azur| S[no ability]
 
+    Q -->|Cost: 14000 Azur| T[no ability]
+    R -->|Cost: 14000 Azur| U[no ability]
+    S -->|Cost: 14000 Azur| V[no ability]
 
+    T -->|Cost: 20000 Azur| W[no ability]
+    U -->|Cost: 20000 Azur| X[no ability]
+    V -->|Cost: 20000 Azur| Y[no ability]
 
+    W -->|Cost: 50000 Azur| Z[no ability]
+    X -->|Cost: 50000 Azur| AA[no ability]
+    Y -->|Cost: 50000 Azur| AB[no ability]
 
-```
