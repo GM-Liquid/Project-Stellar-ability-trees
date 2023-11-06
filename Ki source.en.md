@@ -6,8 +6,8 @@ classDiagram
         +cost: String (amount)
     }
     class AbilityLevel1 {
-        cost (200)
-        +description: no ability 
+        Cost - 2 y.e
+        description: no ability 
     }
     class AbilityLevel2 {
         +cost: cost (200)
