@@ -2,9 +2,8 @@
 ```mermaid
 classDiagram
     class BasicAbility {
-        +name: String
         +description: String
-        +cost: Integer
+        +cost: Integer (amount)
     }
     class AbilityLevel1 {
         +inherit: BasicAbility
